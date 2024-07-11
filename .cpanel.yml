@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/ormjwpmy/repositories/Git-Test-Upload
+    - /bin/cp -r * ${DEPLOYPATH}
